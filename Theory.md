@@ -1,10 +1,9 @@
 # Theory
+### `DRY`  
+Перевод: don't repeat yourself - не повторяйся! Этот принцип...  
 
-## `DRY` - don't repeat yourself - не повторяйся!
+### `KISS`  
+Перевод: keep it simple, stupid! - делай проще! Этот принцип...  
 
-## `KISS` - keep it simple, stupid! - делай проще!
-
-## `YAGNI` -
-
-
-
+### `YAGNI`  
+Перевод: you aren’t gonna need it - вам это не нужно! Этот принцип...  
