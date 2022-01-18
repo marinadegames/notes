@@ -10,4 +10,4 @@
 
 
 #### [JavaScipt](https://github.com/marinadegames/notes/blob/main/Theory.md): ####
-* [Array methods:](https://github.com/marinadegames/notes/blob/main/JavaScript.md#array-methods)
+* [`Array methods`](https://github.com/marinadegames/notes/blob/main/JavaScript.md#array-methods)
