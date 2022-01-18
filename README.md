@@ -9,5 +9,5 @@
 * [`SOLID`](https://github.com/marinadegames/notes/blob/main/Theory.md#solid) - аббревиатура пяти основных принципов ООП  
 
 
-#### [JavaScipt](https://github.com/marinadegames/notes/blob/main/Theory.md): ####
+#### [JavaScipt](https://github.com/marinadegames/notes/blob/main/JavaScript.md): ####
 * [`Array methods`](https://github.com/marinadegames/notes/blob/main/JavaScript.md#array-methods)
