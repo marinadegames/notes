@@ -1,5 +1,33 @@
 # JavaScript
-## `Array methods` ##  
+
+
+## `Типы данных`
+#### Примитивы:
+* `number` \\ 1, 5.65
+* `string` \\ 'hello'
+* `boolean` \\ true, false
+* `null` \\ null
+* `undefined` \\ undefined -
+* `symbol` \\ Symbol(id)
+* `BigInt` \\ 1234567890123456789012345678901234567890n
+#### один "не примитив":
+* `Object`
+Оператор `typeof` возвращает тип данных. Результатом `typeof` является строка, содержащая тип:
+```JS
+typeof undefined    // undefined
+typeof 0    // number
+typeof 1n   // bigint
+typeof true   // boolean
+typeof 'hello'   // string
+typeof Symbol()   // symbol
+typeof {}   // object
+typeof null   // object - признанная ошибка, которая сохраняется для совместимости (null - это не объект, а тип данных)
+typeof function(){}   // function - это подвид объекта, но typeof выделяет функции отдельно (на практике для легкого определения)
+```
+
+
+
+## `Array methods`
 * `.map()` - метод, вызывающий переданную ей функцию для каждого элемента массива и возвращает **новый массив** результатов этой функции  
 ```JS 
 let arr = [1, 2, 3, 4, 5]
@@ -10,4 +38,11 @@ let newArray = arr.map( i => i * 2 )    // result: [ 2, 4, 6, 8, 10 ]
 * `.push()` - добавляет элементы в конец
 * `.pop()` - извлекает элемент из конца
 * `.shift()` - извлекает элемент из начала
-* `.unshift()` - добавляет элементы в начало
+* `.unshift()` - добавляет элементы в начало  
+
+  
+
+
+
+
+
