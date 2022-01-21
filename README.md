@@ -15,7 +15,7 @@
 #### [`JavaScipt`](https://github.com/marinadegames/notes/blob/main/JavaScript.md): ####
 * [`Типы данных в JS`](https://github.com/marinadegames/notes/blob/main/JavaScript.md#%D1%82%D0%B8%D0%BF%D1%8B-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85) - типы данных + оператор typeof
 * [`Array methods`](https://github.com/marinadegames/notes/blob/main/JavaScript.md#array-methods) - методы массивов в JavaScript
-* [`addEventListener`]() - зачем нужен и у кого он есть
+* [`addEventListener`](https://github.com/marinadegames/notes/blob/main/JavaScript.md#addeventlistener---%D0%B7%D0%B0%D1%87%D0%B5%D0%BC-%D0%BD%D1%83%D0%B6%D0%B5%D0%BD-%D0%B8-%D1%83-%D0%BA%D0%BE%D0%B3%D0%BE-%D0%BE%D0%BD-%D0%B5%D1%81%D1%82%D1%8C) - зачем нужен и у кого он есть
 
 #### [`React`](https://github.com/marinadegames/notes/blob/main/React.md) ####
 * soon...
