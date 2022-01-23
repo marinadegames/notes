@@ -11,6 +11,8 @@
 * [`SOLID`](https://github.com/marinadegames/notes/blob/main/Theory.md#solid) - аббревиатура пяти основных принципов ООП  
 * [`FIFO / LIFO`](https://github.com/marinadegames/notes/blob/main/Theory.md#fifo--lifo) - про **стек**
 * [`git`](https://github.com/marinadegames/notes/edit/main/Theory.md#git) - система контроля версий
+* [`localStorage | sessionSorage`]() - что это и в чем их отличие
+* [`cookie`]() - что такое cookie
 
 #### [`JavaScipt`](https://github.com/marinadegames/notes/blob/main/JavaScript.md): ####
 * [`Типы данных в JS`](https://github.com/marinadegames/notes/blob/main/JavaScript.md#%D1%82%D0%B8%D0%BF%D1%8B-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85) - типы данных + оператор typeof
