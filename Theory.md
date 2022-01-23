@@ -36,6 +36,7 @@
 ## `FIFO \ LIFO`
 **`FIFO`** - **F**irst **I**n, **F**irts **O**ut - первым пришел, первым ушел
 **`LIFO`** - **L**ast **I**n, **F**irst **O**ut - последним пришел, перым ушел  
+// in progress..
 
 
 ## `git`
