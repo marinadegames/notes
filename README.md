@@ -5,16 +5,16 @@
 #### [`Theory`](https://github.com/marinadegames/notes/blob/main/Theory.md): ####
 * [`HTTP/HTTPs`](https://github.com/marinadegames/notes/blob/main/Theory.md#http--https) - Про HTTP и HTTPs - протоколы передачи гипертекста
 * [`SOLID`](https://github.com/marinadegames/notes/blob/main/Theory.md#solid) - пять основных принципов проектирования в ООП
-* [`DRY`](https://github.com/marinadegames/notes/blob/main/Theory.md#dry) - don't repeat yourself - не повторяйся
-* [`KISS`](https://github.com/marinadegames/notes/blob/main/Theory.md#kiss) - keep it simple, stupid! - делай проще  
-* [`YAGNI`](https://github.com/marinadegames/notes/blob/main/Theory.md#yagni) -  you aren’t gonna need it - вам это не понадобится
+* [`DRY`](https://github.com/marinadegames/notes/blob/main/Theory.md#dry) - **don't repeat yourself** - не повторяйся
+* [`KISS`](https://github.com/marinadegames/notes/blob/main/Theory.md#kiss) - **keep it simple, stupid!** - делай проще  
+* [`YAGNI`](https://github.com/marinadegames/notes/blob/main/Theory.md#yagni) -  **you aren’t gonna need it** - вам это не понадобится
 * [`SOLID`](https://github.com/marinadegames/notes/blob/main/Theory.md#solid) - аббревиатура пяти основных принципов ООП  
 * [`FIFO / LIFO`](https://github.com/marinadegames/notes/blob/main/Theory.md#fifo--lifo) - про **стек**
 * [`git`](https://github.com/marinadegames/notes/edit/main/Theory.md#git) - система контроля версий
 * [`localStorage | sessionSorage`](https://github.com/marinadegames/notes/blob/main/Theory.md#localstorage--sessionsorage) - что это и в чем их отличие
 * [`cookie`](https://github.com/marinadegames/notes/blob/main/Theory.md#cookie) - что такое cookie
-* [`TDD`](https://github.com/marinadegames/notes/blob/main/Theory.md#tdd) - test driven development - разработка при помощи тестирования
-* [`DNS`](https://github.com/marinadegames/notes/blob/main/Theory.md#dns) - domain name system - система доменных имен
+* [`TDD`](https://github.com/marinadegames/notes/blob/main/Theory.md#tdd) - **test driven development** - разработка при помощи тестирования
+* [`DNS`](https://github.com/marinadegames/notes/blob/main/Theory.md#dns) - **domain name system** - система доменных имен
 
 #### [`JavaScipt`](https://github.com/marinadegames/notes/blob/main/JavaScript.md): ####
 * [`Типы данных в JS`](https://github.com/marinadegames/notes/blob/main/JavaScript.md#%D1%82%D0%B8%D0%BF%D1%8B-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85) - типы данных + оператор typeof
