@@ -40,12 +40,11 @@
 
 ## `TDD`
 `TDD` - test driven development - это разработка при помощи тестирования. Сначал тест - потом уже код.   
-   
-[](https://upload.wikimedia.org/wikipedia/ru/thumb/b/b3/Test-driven-development-ru.png/350px-Test-driven-development-ru.png)  
+![tdd](https://upload.wikimedia.org/wikipedia/ru/thumb/b/b3/Test-driven-development-ru.png/350px-Test-driven-development-ru.png)  
 
 ## `git`
 **`git`** - это система управления версиями. Нужна для того, чтобы всем разработчикам можно было хранить историю изменений проекта и видеть все изменения. Используется не только для кода, но и для других файлов (картинки - дизайнеры). Git работает локально и все ваши репозитории храянятся в определенных папках на жестком диске. Если в интернете - GitHub. + рассказать про комманды (clone, push, pull).
-[](https://www.nobledesktop.com/image/blog/git-branches-merge.png)  
+![git](https://www.nobledesktop.com/image/blog/git-branches-merge.png)  
 
 ## `DNS`
 `DNS` - domain name system - система доменных имен - компьютерная распределенная система для получения информации о доменах. Вся сеть интернет состоит из DNS серверов. Мы набираем какой-то сайт - запрос идет на ближайший DNS-сервер, от него к другому, пока мы не свяжемся с сервером, который может находиться в другой стране. DNS сервер сравнивает наше текстовое навзание сайта с IP адресом.    
