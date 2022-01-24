@@ -40,7 +40,8 @@
 
 ## `TDD`
 `TDD` - test driven development - это разработка при помощи тестирования. Сначал тест - потом уже код.   
-![tdd](https://upload.wikimedia.org/wikipedia/ru/thumb/b/b3/Test-driven-development-ru.png/350px-Test-driven-development-ru.png)
+   
+[](https://upload.wikimedia.org/wikipedia/ru/thumb/b/b3/Test-driven-development-ru.png/350px-Test-driven-development-ru.png)  
 
 ## `git`
 **`git`** - это система управления версиями. Нужна для того, чтобы всем разработчикам можно было хранить историю изменений проекта и видеть все изменения. Используется не только для кода, но и для других файлов (картинки - дизайнеры). Git работает локально и все ваши репозитории храянятся в определенных папках на жестком диске. Если в интернете - GitHub. + рассказать про комманды (clone, push, pull).
