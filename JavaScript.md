@@ -23,6 +23,7 @@ typeof Symbol()   // symbol
 typeof {}   // object
 typeof null   // object - признанная ошибка, которая сохраняется для совместимости (null - это не объект, а тип данных)
 typeof function(){}   // function - это подвид объекта, но typeof выделяет функции отдельно (на практике для легкого определения)
+typeof typeof number // string, т.к. оператор typeof вовзращает тип в виде строки
 ```
 
 ## `Array methods`
