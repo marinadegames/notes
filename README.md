@@ -4,6 +4,9 @@
 ## `Menu:` ##
 #### [`Theory`](https://github.com/marinadegames/notes/blob/main/Theory.md): ####
 * [`HTTP/HTTPs`](https://github.com/marinadegames/notes/blob/main/Theory.md#http--https) - Про HTTP и HTTPs - протоколы передачи гипертекста
+* [`HTTP status code`](https://github.com/marinadegames/notes/blob/main/Theory.md#HTTP-status-code) - про диапазоны HTTP статусов)
+* [`БЭМ`](https://github.com/marinadegames/notes/blob/main/Theory.md#БЭМ) - про методологию БЭМ
+* [`CRUD`](https://github.com/marinadegames/notes/blob/main/Theory.md#CRUD) - 4 функции, исп.при работе с хранилищами
 * [`DNS`](https://github.com/marinadegames/notes/blob/main/Theory.md#dns) - **domain name system** - система доменных имен
 * [`SOLID`](https://github.com/marinadegames/notes/blob/main/Theory.md#solid) - пять основных принципов проектирования в ООП
 * [`DRY`](https://github.com/marinadegames/notes/blob/main/Theory.md#dry) - **don't repeat yourself** - не повторяйся
