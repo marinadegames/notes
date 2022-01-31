@@ -5,6 +5,7 @@
 #### [`Theory`](https://github.com/marinadegames/notes/blob/main/Theory.md): ####
 * [`HTTP/HTTPs`](https://github.com/marinadegames/notes/blob/main/Theory.md#http--https) - Про HTTP и HTTPs - протоколы передачи гипертекста
 * [`HTTP status code`](https://github.com/marinadegames/notes/blob/main/Theory.md#HTTP-status-code) - про диапазоны HTTP статусов)
+* [`DOM`](https://github.com/marinadegames/notes/blob/main/Theory.md#DOM) - Document Object Model
 * [`БЭМ`](https://github.com/marinadegames/notes/blob/main/Theory.md#БЭМ) - про методологию БЭМ
 * [`CRUD`](https://github.com/marinadegames/notes/blob/main/Theory.md#CRUD) - 4 функции, исп.при работе с хранилищами
 * [`DNS`](https://github.com/marinadegames/notes/blob/main/Theory.md#dns) - **domain name system** - система доменных имен
@@ -15,7 +16,7 @@
 * [`SOLID`](https://github.com/marinadegames/notes/blob/main/Theory.md#solid) - аббревиатура пяти основных принципов ООП 
 * [`TDD`](https://github.com/marinadegames/notes/blob/main/Theory.md#tdd) - **test driven development** - разработка при помощи тестирования
 * [`FIFO / LIFO`](https://github.com/marinadegames/notes/blob/main/Theory.md#fifo--lifo) - про **стек**
-* [`git`](https://github.com/marinadegames/notes/edit/main/Theory.md#git) - система контроля версий
+* [`GIT`](https://github.com/marinadegames/notes/edit/main/Theory.md#GIT) - система контроля версий
 * [`localStorage | sessionSorage`](https://github.com/marinadegames/notes/blob/main/Theory.md#localstorage--sessionsorage) - что это и в чем их отличие
 * [`cookie`](https://github.com/marinadegames/notes/blob/main/Theory.md#cookie) - что такое **cookie**
 * [`NodeJS`](https://github.com/marinadegames/notes/blob/main/Theory.md#NodeJS) - что это и для чего он нужен
