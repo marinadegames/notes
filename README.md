@@ -29,5 +29,6 @@
 
 #### [`React`](https://github.com/marinadegames/notes/blob/main/React.md) ####
 * [`React`](https://github.com/marinadegames/notes/blob/main/React.md#React) - что это и для чего он нужен
-* [`Component`](https://github.com/marinadegames/notes/blob/main/React.md#Component) - про компоненту
+* [`Component`](https://github.com/marinadegames/notes/blob/main/React.md#Component) - про компоненту  
+* [`Hooks`](https://github.com/marinadegames/notes/blob/main/React.md#Hooks) - хуки в React
 
