@@ -20,7 +20,8 @@
 * [`localStorage | sessionSorage`](https://github.com/marinadegames/notes/blob/main/Theory.md#localstorage--sessionsorage) - что это и в чем их отличие
 * [`cookie`](https://github.com/marinadegames/notes/blob/main/Theory.md#cookie) - что такое **cookie**
 * [`NodeJS`](https://github.com/marinadegames/notes/blob/main/Theory.md#NodeJS) - что это и для чего он нужен
-* [`PWA`](https://github.com/marinadegames/notes/blob/main/Theory.md#PWA) - **progressive web applications** - "прогрессивное" веб-приложение
+* [`PWA`](https://github.com/marinadegames/notes/blob/main/Theory.md#PWA) - **progressive web applications** - "прогрессивное" веб-приложение  
+* [`API`](https://github.com/marinadegames/notes/blob/main/Theory.md#API) - Application Programming Interface - что это  
 
 #### [`JavaScipt`](https://github.com/marinadegames/notes/blob/main/JavaScript.md): ####
 * [`Типы данных в JS`](https://github.com/marinadegames/notes/blob/main/JavaScript.md#%D1%82%D0%B8%D0%BF%D1%8B-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85) - типы данных + оператор `typeof`
