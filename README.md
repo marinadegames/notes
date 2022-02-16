@@ -35,8 +35,9 @@
 * [`Transaction`](https://github.com/marinadegames/notes/blob/main/Theory.md#Transaction) - про транзакции
 * [`Database`](https://github.com/marinadegames/notes/blob/main/Theory.md#Database) - что это, виды БД
 
-#### [`React`](https://github.com/marinadegames/notes/blob/main/React.md) ####
+#### [`React | Redux`](https://github.com/marinadegames/notes/blob/main/React.md) ####
 * [`React`](https://github.com/marinadegames/notes/blob/main/React.md#React) - что это и для чего он нужен
 * [`Component`](https://github.com/marinadegames/notes/blob/main/React.md#Component) - про компоненту  
-* [`Hooks`](https://github.com/marinadegames/notes/blob/main/React.md#Hooks) - хуки в React
-
+* [`Hooks`](https://github.com/marinadegames/notes/blob/main/React.md#Hooks) - хуки в React  
+* [`Virtual DOM`](https://github.com/marinadegames/notes/blob/main/React.md#Virtual-DOM) - что такое Virtual DOM в React
+* [`Redux`](https://github.com/marinadegames/notes/blob/main/React.md#Redux) - про Redux: Action, Action Creators, Reducer, Store, combineReducer
