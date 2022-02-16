@@ -13,7 +13,6 @@
 * [`DRY`](https://github.com/marinadegames/notes/blob/main/Theory.md#dry) - **don't repeat yourself** - не повторяйся
 * [`KISS`](https://github.com/marinadegames/notes/blob/main/Theory.md#kiss) - **keep it simple, stupid!** - делай проще  
 * [`YAGNI`](https://github.com/marinadegames/notes/blob/main/Theory.md#yagni) -  **you aren’t gonna need it** - вам это не понадобится
-* [`SOLID`](https://github.com/marinadegames/notes/blob/main/Theory.md#solid) - аббревиатура пяти основных принципов ООП 
 * [`TDD`](https://github.com/marinadegames/notes/blob/main/Theory.md#tdd) - **test driven development** - разработка при помощи тестирования
 * [`FIFO / LIFO`](https://github.com/marinadegames/notes/blob/main/Theory.md#fifo--lifo) - про **стек**
 * [`GIT`](https://github.com/marinadegames/notes/edit/main/Theory.md#GIT) - система контроля версий
@@ -23,6 +22,8 @@
 * [`PWA`](https://github.com/marinadegames/notes/blob/main/Theory.md#PWA) - **progressive web applications** - "прогрессивное" веб-приложение  
 * [`API`](https://github.com/marinadegames/notes/blob/main/Theory.md#API) - Application Programming Interface - что это
 * [`AJAX`](https://github.com/marinadegames/notes/blob/main/Theory.md#AJAX) - что такое **AJAX** и для чего он нужен  
+* [`Agile and Waterfall`](https://github.com/marinadegames/notes/blob/main/Theory.md#Agile-and-Waterfall) - **Agile** and **Waterfall** - что это и в чем разница
+
 
 
 #### [`JavaScipt`](https://github.com/marinadegames/notes/blob/main/JavaScript.md): ####
