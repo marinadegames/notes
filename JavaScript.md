@@ -56,11 +56,49 @@ element.addEventListener(event, function, useCapture);
 2. `Идемпотентность` - дает один и тот же результат при каждом вызове  
 3. `Детерминированность` - выдает предсказуенмый результат  
 
+## `Методы функций call(), apply() и bind()`  
+В языке JS функции - это тоже объекты, и поэтому у них тоже есть есть методы:  
 
+* `.call()` - это метод, который вызывает функцию с указанным значением **this**:  
+```JS
+// создаем объект:
+let man = {
+    age: 32 
+}
+// пишем функцию:
+function showAge() {
+    console.log(this.age) // если мы вызовем функцию без call, то ничего не получится
+}
+// вызываем функцию:
+showAge.call(man)  // ВЫВОД: 33 
 
-  
+```  
 
+* `.aplly()` - это метод, который работат аналогичсно методу `call`, но принимает массив аргумента вместо списка:  
 
+```JS
+// создаем объект:
+let man = {
+    name: 'Eugene',
+    age: 18
+}
+// пишем функцию:
+function showMan(sex, city) { // обратите внимание, функция принимает аргументы
+    console.log(this.name + ' | ' + this.age + ' | ' + sex + ' | ' + city)
+}
+// вызов функции:
+showMan.apply(man, ['man', 'Minsk']) // ВЫВОД: "Eugene | 18 | man | Minsk"
+```  
 
+* `.bind()` - просто **'байндит'** указанную функцию, не вызывая ее:  
 
-
+```JS
+let user = {
+  name: "Eugene"
+};
+function func() {
+  console.log(this.name);
+}
+let funcName = func.bind(user);
+funcName(); // ВЫВОД: 'Eugene'
+```
