@@ -126,14 +126,14 @@ document.getElementById('root'));
 После этого в дочерних компонентах мы можем использовать данные из `store`.  
 Способ "взятия" данных зависит от компоненты:
 * В __функциональных__ компонентах мы используем хук `useSelector`, и для отправки **action** используем `useDispatch`
-* В __классовых__ компонентах мы используем `connect()`, `mapStateToProps`, `mapDispatchToProps`.      
+* В __классовых__ компонентах мы используем `connect()`, `mapStateToProps` и `mapDispatchToProps`.      
 
-![table-connect](.\assets\about_connect.png)  
+![table-connect](./assets/about_connect.png)  
 
 
 ## `HOC`
 `HOC` - **High order component** - компонента высшего порядка - это функция, которая принимает компоненту и возвращает новую компоненту. Задача `HOC` - принять однку компоненту, а вернуть другую, наделенную какими-то способностями.  
 
-![HOC1](.\assets\HOC1.png)  
+![HOC1](./assets/HOC1.png)  
 
 
