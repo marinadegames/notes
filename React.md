@@ -1,6 +1,6 @@
-# React & Redux #
+# React, Redux and more #
 
-this page about React and Redux
+## This page about React, Redux and more
 
 ## `React`
 
@@ -104,13 +104,28 @@ export const ExampleReducer = (state = initState, action: ActionType): ExampleTy
 * обновляется через **dispatch()**
 * можно уведомлять через **subscriber()**  
 
-`combineReducer` - возвращает "большую" функцию - метод, позволяющий нам создавать большой редюсер для всего состояния сразу, разбивая его на отдельные модули.
-
-
+`combineReducer` - возвращает "большую" функцию - метод, позволяющий нам создавать большой редюсер для всего состояния сразу, разбивая его на отдельные модули.  
 
 **Источники:**
 
 * [`habr.com`](https://habr.com/ru/post/498860/)
 * [`redux-ru.js.org`](https://redux-ru.js.org/#documentation)
-* [`redux.js.org`](https://redux.js.org/introduction/getting-started)
+* [`redux.js.org`](https://redux.js.org/introduction/getting-started)  
 
+## `React-redux`
+`React-redux` - это пакет для подключения `react` к `redux`. После установки все наше дерево компонентов в react имеет доступ к **store** и может подписываться на него. Для того, чтобы **store** можно было использовать в компонентах, у `react-redux` есть специальный метод `Provider`:  
+
+```JS
+ReactDOM.render(
+    <Provider store={store}>
+        <App />
+    </Provider>, 
+document.getElementById('root'));
+```  
+
+После этого в дочерних компонентах мы можем использовать данные из `store`.  
+Способ "взятия" данных зависит от компоненты:
+* В __функциональных__ компонентах мы используем хук `useSelector`, и для отправки **action** используем `useDispatch`
+* В __классовых__ компонентах мы используем `connect()`, `mapStateToProps`, `mapDispatchToProps`.      
+
+![table-connect](.\assets\about_connect.png)
