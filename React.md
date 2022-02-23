@@ -75,10 +75,6 @@ const AddTaskAction: ExampleType = {
 `Action Creators` - создатель действия - это функции, которые создают действия. Могут принимать аргументы.
 
 ```typescript
-
-```
-
-```
     const AddTaskActionCreator = (newText: string):ExampleType => {
         return { type: 'ADD_TASK', newText}
 }
