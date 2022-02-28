@@ -20,7 +20,7 @@
 * [`cookie`](https://github.com/marinadegames/notes/blob/main/Theory.md#cookie) - что такое **cookie**
 * [`NodeJS`](https://github.com/marinadegames/notes/blob/main/Theory.md#nodejs) - что это и для чего он нужен
 * [`PWA`](https://github.com/marinadegames/notes/blob/main/Theory.md#pwa) - **progressive web applications** - "прогрессивное" веб-приложение  
-* [`API`](https://github.com/marinadegames/notes/blob/main/Theory.md#api) - Application Programming Interface - что это
+* [`API`](https://github.com/marinadegames/notes/blob/main/Theory.md#api) - **Application Programming Interface** - что это
 * [`AJAX`](https://github.com/marinadegames/notes/blob/main/Theory.md#ajax) - что такое **AJAX** и для чего он нужен  
 * [`Agile and Waterfall`](https://github.com/marinadegames/notes/blob/main/Theory.md#agile-and-waterfall) - **Agile** and **Waterfall** - что это и в чем разница
 * [`Чистая функция`](https://github.com/marinadegames/notes/edit/main/Theory.md#pure-function) - про чистые функции и их особенности
@@ -35,6 +35,7 @@
 * [`addEventListener`](https://github.com/marinadegames/notes/blob/main/JavaScript.md#addeventlistener---%D0%B7%D0%B0%D1%87%D0%B5%D0%BC-%D0%BD%D1%83%D0%B6%D0%B5%D0%BD-%D0%B8-%D1%83-%D0%BA%D0%BE%D0%B3%D0%BE-%D0%BE%D0%BD-%D0%B5%D1%81%D1%82%D1%8C) - зачем нужен и у кого он есть
 * [`call, apply, bind`](https://github.com/marinadegames/notes/blob/main/JavaScript.md#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B9-call-apply-%D0%B8-bind) - методы функций в JS 
 * [`async | defer`](https://github.com/marinadegames/notes/blob/main/JavaScript.md#async--defer) - атрибуты тега **script**
+* [`stopPropagation`](https://github.com/marinadegames/notes/blob/main/JavaScript.md#stoppropagation) - прекращение всплытия
 
 #### [`React | Redux`](https://github.com/marinadegames/notes/blob/main/React.md) ####
 * [`React`](https://github.com/marinadegames/notes/blob/main/React.md#react) - что это и для чего он нужен

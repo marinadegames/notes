@@ -208,3 +208,19 @@ defer</span>.
 * я не жду другие `async` скрипты, а другие `async` скрипты не будут ждать меня  
 
 Источник: [learn.javascript.ru](https://learn.javascript.ru/script-async-defer#async)
+
+## `stopPropagation`
+`.stopPropagation()` - это метод, позволящий нам остановить всплытие событий. Всплытие идет от элемента прямо наверх. По умолчанию событие будет всплывать до тега `html`, затем до `document`,  а потом и вовсем до `window`, вызывая все обработчики на своем пути. Но это можно остановить при помощи `.stopPropagation()`.  
+
+```JS
+<body onclick="alert(`сюда всплытие не дойдёт`)">
+  <button onclick="event.stopPropagation()">Click me!</button>
+</body>
+```  
+
+В каких случаях не стоит использовать это метод, пример:  
+* **Представим ситуацию:** мы делаем вложенное меню. Каждое подменю обрабатывает клики на своих элементах и делает для них `stopPropagation`, чтобы не срабатывало внешнее меню
+* Потом мы решили отслеживать все клики для статистики при помощи `document.addEventListener('click'…)`
+* Наша аналитика не будет работать над областью, где клики прекращаются `stopPropagation`, и получится **"мертвая зона"**.  
+
+ИСТОЧНИК: [`learn.javascript.ru`](https://learn.javascript.ru/bubbling-and-capturing)
