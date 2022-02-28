@@ -23,7 +23,7 @@
 * [`API`](https://github.com/marinadegames/notes/blob/main/Theory.md#api) - **Application Programming Interface** - что это
 * [`AJAX`](https://github.com/marinadegames/notes/blob/main/Theory.md#ajax) - что такое **AJAX** и для чего он нужен  
 * [`Agile and Waterfall`](https://github.com/marinadegames/notes/blob/main/Theory.md#agile-and-waterfall) - **Agile** and **Waterfall** - что это и в чем разница
-* [`Чистая функция`](https://github.com/marinadegames/notes/edit/main/Theory.md#pure-function) - про чистые функции и их особенности
+* [`Чистая функция`](https://github.com/marinadegames/notes/blob/main/Theory.md#pure-function) - про чистые функции и их особенности
 * [`ACID`](https://github.com/marinadegames/notes/blob/main/Theory.md#acid) - про требования ACID, сохранность данных
 * [`Database`](https://github.com/marinadegames/notes/blob/main/Theory.md#database) - что это, виды БД
 * [`Transaction`](https://github.com/marinadegames/notes/blob/main/Theory.md#transaction) - про транзакции
