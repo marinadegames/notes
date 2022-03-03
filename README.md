@@ -27,6 +27,7 @@
 * [`ACID`](https://github.com/marinadegames/notes/blob/main/Theory.md#acid) - про требования ACID, сохранность данных
 * [`Database`](https://github.com/marinadegames/notes/blob/main/Theory.md#database) - что это, виды БД
 * [`Transaction`](https://github.com/marinadegames/notes/blob/main/Theory.md#transaction) - про транзакции
+* [`XSS-atack`](https://github.com/marinadegames/notes/blob/main/Theory.md#xss-atack) - про XSS-уязвимость
 
 
 #### [`JavaScipt`](https://github.com/marinadegames/notes/blob/main/JavaScript.md): ####
