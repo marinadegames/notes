@@ -28,6 +28,7 @@
 * [`Database`](https://github.com/marinadegames/notes/blob/main/Theory.md#database) - что это, виды БД
 * [`Transaction`](https://github.com/marinadegames/notes/blob/main/Theory.md#transaction) - про транзакции
 * [`XSS-atack`](https://github.com/marinadegames/notes/blob/main/Theory.md#xss-atack) - про XSS-уязвимость
+* [`CORS`](https://github.com/marinadegames/notes/blob/main/Theory.md#cors) - политика безопасности
 
 
 #### [`JavaScipt`](https://github.com/marinadegames/notes/blob/main/JavaScript.md): ####
