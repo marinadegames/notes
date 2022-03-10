@@ -141,6 +141,76 @@ ReactDOM.render(
 `HOC` - **High order component** - компонента высшего порядка - это функция, которая принимает компоненту и возвращает
 новую компоненту. Задача `HOC` - принять однку компоненту, а вернуть другую, наделенную какими-то способностями.
 
-![HOC1](./assets/HOC1.png)  
+![HOC1](./assets/HOC1.png)    
+
+
+## `Redux-thunk`
+`Redux-thunk` - **"санки"** - это функция, позволяющая выполнять несколько асинхронных операций. Её можно диспатчить в **store**, где она сама потом диспатчит в него **action**.  
+"Санки" нужны, чтобы избежать общения **UI** и **DAL**, а также чтобы передавать несколько **action** сразу и выполнять асинхронные операции.    
+### Установка:  
+
+```shell
+yarn add redux-thunk
+```  
+
+### Применение:  
+1. `applyMiddleware` - это предложенный **redux** способ добавления усилителей (т.е. различных **Middleware**).  
+`Middleware` - это всегда функция, которая всегда возвращает функцию (если нет цели прервать цепочку вызовов).  
+В файле с нашим **redux-store** мы ипортируем **applyMiddleware** из **redux** и наш промежуточный уровень - `thunkMiddleware`:  
+```js
+import {createStore, combineReducer, applyMiddleware} from 'redux'
+// обратите внимание, что applyMiddleware импортируется из redux
+import thunkMiddleware from 'redux-thunk'
+```  
+2. Добавляем функцию **applyMiddleware** с параметром **thunkMiddleware** туда, где мы объявляем **store** с **редюсерами** (т.е. параметром к функции **createStore**):  
+```JS
+let store = createStore(reducers, applyMiddleware(thunkMiddleware))
+// передали в createStore вторым параметром applyMiddleware(thunkMiddlware)
+```  
+3. В файле с целевым редюсером (например **tasksReducer**) создаем **thunkCreator** (по аналогии с **actionCreator**):  
+<small>Пример написан с использованием typescirt</small> 
+
+```Typescript
+const getTasksThunkCreator = (todolistId: string) => { // создаем наш thunk creator
+    return (dispatch: Dispatch) => {
+        todolistAPI.getTasks(todolistId) // запрос через API по ID тудулиста
+        .then(resp => { // обработка промиса
+            const tasks = resp.data.items // таски с сервера
+            const action = setTasksAC(tasks, todolistId) // action
+            dispatch(action) // диспатчим экшн
+        })
+    }
+}
+```  
+4. После этого в нашей компоненте мы используем эту "САНКУ":  
+<small>Пример написан с использованием функциональной компоненты и с использование TypeScript</small>  
+
+```Typescript
+type PropsType = {
+    todolistId: string
+}
+export const ExampleComponentTodolist = (props: PropsType) => {
+    const dispatch = useDispatch() // используем диспатч
+
+    // всю асинхронные действия функц.компоненты мы выполняем в useEffect:
+    useEffect(() => {
+        dispatch(getTasksThunkCreator(props.todolistId))
+        // диспатчим санку с id нашего тудулиста
+    }, [props.todolistId]) // не забываем указывать зависимости для useEffect
+
+    return (
+        <div>...Отрисовка JSX...</div>
+    )
+}
+```  
+
+**Источники:**
+
+* [`it-shpora`](http://it-shpora.pp.ua/thunk-redux-%D1%87%D1%82%D0%BE-%D1%8D%D1%82%D0%BE-%D0%B7%D0%B0%D1%87%D0%B5%D0%BC-%D0%BA%D0%B0%D0%BA-%D0%B2%D0%BA%D0%BB%D1%8E%D1%87%D0%B8%D1%82%D1%8C-%D0%B8-%D0%BA%D0%B0%D0%BA-%D0%BF%D0%BE%D0%BB/)
+* [`habr.com`](https://habr.com/ru/post/483314/)
+* [`digitalocean.com`](https://www.digitalocean.com/community/tutorials/redux-redux-thunk-ru)
+
+
+
 
 
