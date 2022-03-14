@@ -39,6 +39,8 @@
 * [`call, apply, bind`](https://github.com/marinadegames/notes/blob/main/JavaScript.md#%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D1%8B-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B9-call-apply-%D0%B8-bind) - методы функций в JS 
 * [`async | defer`](https://github.com/marinadegames/notes/blob/main/JavaScript.md#async--defer) - атрибуты тега **script**
 * [`stopPropagation`](https://github.com/marinadegames/notes/blob/main/JavaScript.md#stoppropagation) - прекращение всплытия
+* [`class`](https://github.com/marinadegames/notes/blob/main/JavaScript.md#class) - про class в JS
+* [`Типизация классов`](https://github.com/marinadegames/notes/blob/main/JavaScript.md#class) - как типизировать классы в typescript
 
 #### [`React | Redux`](https://github.com/marinadegames/notes/blob/main/React.md) ####
 * [`React`](https://github.com/marinadegames/notes/blob/main/React.md#react) - что это и для чего он нужен
