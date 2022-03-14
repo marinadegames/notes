@@ -29,6 +29,7 @@
 * [`Transaction`](https://github.com/marinadegames/notes/blob/main/Theory.md#transaction) - про транзакции
 * [`XSS-atack`](https://github.com/marinadegames/notes/blob/main/Theory.md#xss-atack) - про XSS-уязвимость
 * [`CORS`](https://github.com/marinadegames/notes/blob/main/Theory.md#cors) - политика безопасности
+* [`CDN`](https://github.com/marinadegames/notes/blob/main/Theory.md#cdn) - Content Delivery Network - распределенная сеть доставки
 
 
 #### [`JavaScipt`](https://github.com/marinadegames/notes/blob/main/JavaScript.md): ####
