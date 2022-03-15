@@ -51,3 +51,4 @@
 * [`React-redux`](https://github.com/marinadegames/notes/blob/main/React.md#react-redux) - пакет для подключения react к redux
 * [`HOC`](https://github.com/marinadegames/notes/blob/main/React.md#hoc) - **high order component** - компонента вышсего порядка
 * [`Redux-thunk`](https://github.com/marinadegames/notes/blob/main/React.md#redux-thunk) - **САНКИ** - зачем и для чего (+ **middleware**)
+* [`Reconciliation`](https://github.com/marinadegames/notes/blob/main/React.md#reconciliation) - согласование
