@@ -341,7 +341,42 @@ class Test implements TestType { // класс Test имплементирует
         this.age = age
     }
 } 
-```  
+```     
+
+
+#IndexedDB  
+`IndexedDB` - это встренная база данных в браузере, более мощная, чем localStorage.  
+* Можно хранить любые ключи\значения (почти)
+* Поддерживает транзакции для надежности
+* Можно хранить больше данных, чем в localStorage
+* noSQL
+
+### Открыть базу данных:  
+```JS
+  let openRequest = indexedDB.open(name, version)
+// name - название баззы данных.
+// version - версия бд, положительное число.
+
+openRequest.onupgradeneeded = function() {
+  // срабатывает, если на клиенте нет базы данных
+  // ...выполнить инициализацию...
+};
+
+openRequest.onerror = function() {
+  console.error("Error", openRequest.error);
+};
+
+openRequest.onsuccess = function() {
+  let db = openRequest.result;
+  // продолжить работу с базой данных, используя объект db
+};
+```
+
+#### ИСТОЧНИК: [learn.javascript.ru](https://learn.javascript.ru/indexeddb)
+
+
+ 
+
 
 
 
