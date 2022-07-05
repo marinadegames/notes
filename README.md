@@ -1,8 +1,8 @@
-# These are my programming notes #
-#### JavaScript, React, theory, and more... ####
+# 📝✅ These are my programming notes #
+### 💻 JavaScript, React, theory, and more... ###
 
-## `Menu:` ##
-#### [`Theory`](https://github.com/marinadegames/notes/blob/main/Theory.md): ####
+## 📝 `Menu:` ##
+### 📚 [`Theory`](https://github.com/marinadegames/notes/blob/main/Theory.md): ####
 * [`HTTP/HTTPs`](https://github.com/marinadegames/notes/blob/main/Theory.md#http--https) - Про HTTP и HTTPs - протоколы передачи гипертекста
 * [`HTTP status code`](https://github.com/marinadegames/notes/blob/main/Theory.md#http-status-code) - про диапазоны HTTP статусов)
 * [`DOM`](https://github.com/marinadegames/notes/blob/main/Theory.md#dom) - Document Object Model
@@ -32,7 +32,7 @@
 * [`CDN`](https://github.com/marinadegames/notes/blob/main/Theory.md#cdn) - Content Delivery Network - распределенная сеть доставки
 
 
-#### [`JavaScipt`](https://github.com/marinadegames/notes/blob/main/JavaScript.md): ####
+### 🐸  [`JavaScipt`](https://github.com/marinadegames/notes/blob/main/JavaScript.md): ####
 * [`Типы данных в JS`](https://github.com/marinadegames/notes/blob/main/JavaScript.md#%D1%82%D0%B8%D0%BF%D1%8B-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85) - типы данных + оператор `typeof`
 * [`Array methods`](https://github.com/marinadegames/notes/blob/main/JavaScript.md#array-methods) - методы массивов в JavaScript
 * [`addEventListener`](https://github.com/marinadegames/notes/blob/main/JavaScript.md#addeventlistener---%D0%B7%D0%B0%D1%87%D0%B5%D0%BC-%D0%BD%D1%83%D0%B6%D0%B5%D0%BD-%D0%B8-%D1%83-%D0%BA%D0%BE%D0%B3%D0%BE-%D0%BE%D0%BD-%D0%B5%D1%81%D1%82%D1%8C) - зачем нужен и у кого он есть
@@ -44,7 +44,7 @@
 * [`IndexedDB`](https://github.com/marinadegames/notes/blob/main/JavaScript.md#indexeddb) - что такое **IndexedDB**
 
 
-#### [`React | Redux`](https://github.com/marinadegames/notes/blob/main/React.md) ####
+### ☢ ️ [`React | Redux`](https://github.com/marinadegames/notes/blob/main/React.md) ####
 * [`React`](https://github.com/marinadegames/notes/blob/main/React.md#react) - что это и для чего он нужен
 * [`Component`](https://github.com/marinadegames/notes/blob/main/React.md#component) - про компоненту  
 * [`Hooks`](https://github.com/marinadegames/notes/blob/main/React.md#hooks) - хуки в React, правила хуков  
