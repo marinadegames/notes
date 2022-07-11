@@ -42,6 +42,7 @@
 * [`class`](https://github.com/marinadegames/notes/blob/main/JavaScript.md#class) - про class в JS
 * [`Типизация классов`](https://github.com/marinadegames/notes/blob/main/JavaScript.md#%D1%82%D0%B8%D0%BF%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%BE%D0%B2-typescript) - как типизировать классы в typescript
 * [`IndexedDB`](https://github.com/marinadegames/notes/blob/main/JavaScript.md#indexeddb) - что такое **IndexedDB**
+* [`__proto__ и prototype`](https://github.com/marinadegames/notes/blob/main/JavaScript.md#) - пару задачек на __proto__ и prototype
 
 
 ### ☢ ️ [`React | Redux`](https://github.com/marinadegames/notes/blob/main/React.md) ####
