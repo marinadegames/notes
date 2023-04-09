@@ -1,5 +1,5 @@
-# 📝✅ These are my programming notes #
-### 💻 JavaScript, React, theory, and more... ###
+# 📝✅ This is my programming notes #
+### 💻 JavaScript, React, Computer Science and other ###
 
 ## 📝 `Menu:` ##
 ### 📚 [`Theory`](https://github.com/marinadegames/notes/blob/main/Theory.md): ####
@@ -45,13 +45,17 @@
 * [`__proto__ и prototype`](https://github.com/marinadegames/notes/blob/main/JavaScript.md#%D0%BF%D0%B0%D1%80%D1%83-%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B5%D0%BA-%D0%BD%D0%B0-__proto__-%D0%B8-prototype) - пару задачек на __proto__ и prototype
 
 
-### ☢ ️ [`React | Redux`](https://github.com/marinadegames/notes/blob/main/React.md) ####
+### ☢ ️ [`React`](https://github.com/marinadegames/notes/blob/main/React.md) ####
 * [`React`](https://github.com/marinadegames/notes/blob/main/React.md#react) - что это и для чего он нужен
 * [`Component`](https://github.com/marinadegames/notes/blob/main/React.md#component) - про компоненту  
 * [`Hooks`](https://github.com/marinadegames/notes/blob/main/React.md#hooks) - хуки в React, правила хуков  
+* [`useEffect`](https://github.com/marinadegames/notes/blob/main/React.md#useEffect) - useEffect
 * [`Virtual DOM`](https://github.com/marinadegames/notes/blob/main/React.md#virtual-DOM) - что такое Virtual DOM в React
-* [`Redux`](https://github.com/marinadegames/notes/blob/main/React.md#redux) - про Redux: Action, Action Creators, Reducer, Store, combineReducer
-* [`React-redux`](https://github.com/marinadegames/notes/blob/main/React.md#react-redux) - пакет для подключения react к redux
 * [`HOC`](https://github.com/marinadegames/notes/blob/main/React.md#hoc) - **high order component** - компонента вышсего порядка
-* [`Redux-thunk`](https://github.com/marinadegames/notes/blob/main/React.md#redux-thunk) - **САНКИ** - зачем и для чего (+ **middleware**)
 * [`Reconciliation`](https://github.com/marinadegames/notes/blob/main/React.md#reconciliation) - согласование
+
+
+### ⚙️ [`Redux`](https://github.com/marinadegames/notes/blob/main/Redux.md#redux)
+* [`Redux`](https://github.com/marinadegames/notes/blob/main/Redux.md#redux) - про Redux: Action, Action Creators, Reducer, Store, combineReducer
+* [`React-redux`](https://github.com/marinadegames/notes/blob/main/Redux.md#react-redux) - пакет для подключения react к redux
+* [`Redux-thunk`](https://github.com/marinadegames/notes/blob/main/Redux.md#redux-thunk) - **САНКИ** - зачем и для чего (+ **middleware**)
